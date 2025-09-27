@@ -1,0 +1,38 @@
+# Arquivos grandes que não precisam ser commitados
+assets/plugin-release.zip
+assets/*.zip
+assets/*.apk
+assets/*.obb
+
+# Arquivos de build e temporários
+*.apk
+*.aab
+*.keystore
+*.jks
+build/
+bin/
+gen/
+
+# Logs e cache
+*.log
+.cache/
+
+# Arquivos grandes desnecessários para análise
+**/*.so
+**/*.jar
+**/*.aar
+lib/  # Bibliotecas nativas são grandes
+
+# Outros arquivos grandes
+*.mp4
+*.mp3
+*.wav
+*.png  # se forem muito grandes
+*.jpg
+
+# Pasta original (backup do APKTool)
+original/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
