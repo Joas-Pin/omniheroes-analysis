@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/toast_bg_fl" android:background="@drawable/x7_app_toast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="138.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="@color/base_white" android:layout_gravity="center" android:id="@id/toast_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

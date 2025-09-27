@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_0" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_1" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_2" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_3" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_4" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_5" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_6" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_7" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_8" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_9" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_10" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_11" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_12" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_13" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_14" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_15" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_16" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_17" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_18" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_19" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_20" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_21" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_22" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_23" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_24" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_25" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_26" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_27" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_28" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_29" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_30" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_31" />
+    <item android:duration="40" android:drawable="@drawable/jumping_tiger_32" />
+</animation-list>

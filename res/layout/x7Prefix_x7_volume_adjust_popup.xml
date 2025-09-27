@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/x7_34dp" android:layout_height="@dimen/x7_164dp" android:layout_centerInParent="true">
+        <cn.jzvd.progress.VerticalRangeSeekBar android:id="@id/volume_control_seek_bar" android:layout_width="@dimen/x7_14dp" android:layout_height="@dimen/x7_140dp" android:layout_marginTop="@dimen/x7_2dp" android:paddingStart="@dimen/x7_5dp" android:paddingEnd="@dimen/x7_5dp" app:rsb_max="100.0" app:rsb_min="0.0" app:rsb_mode="single" app:rsb_progress_default_color="#1affffff" app:rsb_thumb_height="@dimen/x7_14dp" app:rsb_thumb_width="@dimen/x7_14dp" app:rsb_tick_mark_orientation="vertical" app:rsb_tick_mark_text_size="@dimen/x7_0dp" />
+        <TextView android:textSize="@dimen/x7_12dp" android:textColor="#ff12cdb0" android:id="@id/volume_pet_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

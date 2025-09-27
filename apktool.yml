@@ -1,0 +1,21 @@
+version: 2.12.1
+apkFileName: omniheroes.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 30
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 1006
+  versionName: 2.39.0
+doNotCompress:
+- arsc
+- gif
+- mp3
+- mp4
+- png
+- webp
+- org/cocos2dx/okhttp3/internal/publicsuffix/publicsuffixes.gz

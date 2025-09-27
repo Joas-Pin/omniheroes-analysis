@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/healthy_tips" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@android:color/white" android:id="@id/tip1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/healthy_tips1" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@android:color/white" android:id="@id/tip2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/healthy_tips2" android:layout_below="@id/tip1" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@android:color/white" android:id="@id/tip3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/healthy_tips3" android:layout_below="@id/tip2" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24.0dip" android:textColor="@android:color/white" android:id="@id/tip4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/healthy_tips4" android:layout_below="@id/tip3" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

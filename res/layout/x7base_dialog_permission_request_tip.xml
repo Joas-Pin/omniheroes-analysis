@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_cl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/x7_bg_green_12cdb0_15" android:padding="@dimen/x7base_text_size_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7base_text_size_20" android:layout_marginBottom="@dimen/x7base_text_size_20" android:layout_marginStart="@dimen/x7base_text_size_20" android:layout_marginEnd="@dimen/x7base_text_size_20">
+        <TextView android:textSize="@dimen/x7base_text_size_14" android:textStyle="bold" android:textColor="@color/x7base_white" android:id="@id/permission_tip_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="存储权限使用说明" />
+        <TextView android:textSize="@dimen/x7_12dp" android:textColor="@color/x7base_white" android:id="@id/permission_tip_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_5dp" android:text="小7手游正在向您获取“存储”权限，同意后，将用于为您提供浏览/下载内容缓存、文件管理等服务" android:layout_below="@id/permission_tip_title" />
+    </RelativeLayout>
+</RelativeLayout>

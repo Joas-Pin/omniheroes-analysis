@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/x7_sdk_loading_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_load" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="TODO" />
+    <TextView android:textColor="@color/base_white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/tips_loading_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/x7_sdk_uploading" />
+</LinearLayout>

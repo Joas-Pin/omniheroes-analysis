@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/uframework_common_view"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout style="@style/uframework_common_title_bg">
+        <TextView android:id="@id/uframework_notice_title" android:layout_centerInParent="true" style="@style/uframework_common_title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/uframework_btn_close" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/uframework_common_close" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/uframework_webview_wrapper" android:background="@drawable/uframework_bottom_border_bg" android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <com.u8.sdk.base.web.CircleWebView android:id="@id/uframework_webview" android:background="@drawable/uframework_bottom_border_bg" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+    </LinearLayout>
+</LinearLayout>

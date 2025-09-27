@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/x7_20dp" android:textStyle="bold" android:textColor="@color/green_4DC0A4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_std_root_edge_margin" android:text="x7std示例" android:layout_marginStart="@dimen/x7_std_root_edge_margin" />
+        <include layout="@layout/x7Prefix_x7_std_usage_demo_title" />
+        <include layout="@layout/x7Prefix_x7_std_usage_demo_btn" />
+        <include layout="@layout/x7Prefix_x7_std_usage_demo_load_anim" />
+    </LinearLayout>
+</ScrollView>

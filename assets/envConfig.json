@@ -1,0 +1,14 @@
+{
+    "envName": "omnidream_x7",
+    "i18n": [
+        "en",
+        "zh"
+    ],
+    "isSdk": true,
+    "language": "zh",
+    "cdnType": "omnidream_cn",
+    "pkgVersion": 103,
+    "isCn": true,
+    "isShowProfiler": false,
+    "isUpdate": true
+}

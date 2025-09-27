@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/dialog_root_view" android:layout_width="320.0dip" android:layout_height="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/privacy_title_fl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="16.0dip">
+        <View android:id="@id/back_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" /> t <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#bf000000" android:gravity="center" android:layout_gravity="center" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginRight="35.0dip" />
+    </FrameLayout>
+    <WebView android:scrollbarSize="2.0dip" android:scrollbarStyle="outsideOverlay" android:id="@id/privacy_agreement_wv" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="21.0dip" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+0
+jsb-adapter/jsb-builtin.js 1face6a5968feddd 338435
+jsb-adapter/jsb-engine.js a9eae563e496369c 216125
+main.js ef023477b52a92ae 4988
+src/assets/scripts/base/promise/promise.jsc 8d98f3457473928b 180
+src/assets/scripts/src/lib/tslib/enum_list.jsc 4462a99d4058bb91 60
+src/assets/scripts/src/lib/tslib/md5.min.jsc 1b72ce04801c7647 1700
+src/assets/scripts/src/lib/webp/demux.jsc e91b1cb245a7d69a 628
+src/assets/scripts/src/lib/webp/libwebp-0.6.0.min.jsc 8da56b280eca6bd7 28228
+src/cocos2d-jsb.jsc c5b30259bf4873cc 312352
+src/settings.jsc 06d658aa1e32a244 336

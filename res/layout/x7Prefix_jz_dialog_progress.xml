@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/jz_dialog_progress_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/x7_152dp" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/duration_image_tip" android:layout_width="@dimen/x7_36dp" android:layout_height="@dimen/x7_27dp" android:layout_marginTop="@dimen/x7_16dp" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_20dp">
+            <TextView android:textSize="@dimen/x7_14dp" android:textColor="#fff85959" android:id="@id/tv_current" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/x7_14dp" android:textColor="#ffffffff" android:id="@id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/duration_progressbar" android:layout_width="fill_parent" android:layout_height="@dimen/x7_4dp" android:layout_marginTop="@dimen/x7_8dp" android:layout_marginBottom="@dimen/x7_16dp" android:max="100" android:progressDrawable="@drawable/jz_dialog_progress_drawable" android:layout_marginStart="@dimen/x7_16dp" android:layout_marginEnd="@dimen/x7_16dp" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </LinearLayout>
+</LinearLayout>

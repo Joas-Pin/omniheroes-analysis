@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/u8_p_titlebar" android:background="@android:color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/u8_p_back" android:background="@drawable/u8_title_left_bg" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/u8_title_back" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/u8_common_textsize_ml" android:textColor="@color/u8_dark" android:id="@id/u8_p_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户和隐私协议" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <WebView android:id="@id/u8_p_webprotocol" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/dialog_root_view" android:padding="@dimen/x7_20dp" android:layout_width="@dimen/x7_300dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/x7_16dp" android:textColor="@color/x7base_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x7_warm_tip" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/x7_14dp" android:textColor="@color/x7base_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_18dp" android:text="@string/x7_game_privacy_tip" android:includeFontPadding="false" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_20dp">
+        <TextView android:textSize="@dimen/x7_14dp" android:textColor="#b2ffffff" android:gravity="center" android:id="@id/x7_cancel_tv" android:background="@drawable/x7_bg_1affffff_corner_10" android:layout_width="@dimen/x7_116dp" android:layout_height="@dimen/x7_42dp" android:text="@string/x7_cancel" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/x7_14dp" android:textColor="@color/x7base_white" android:gravity="center" android:id="@id/x7_to_read_tv" android:background="@drawable/x7_bg_12cdb0_corner_10" android:layout_width="@dimen/x7_116dp" android:layout_height="@dimen/x7_42dp" android:text="@string/x7_go_to_read" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

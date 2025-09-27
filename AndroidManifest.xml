@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" android:installLocation="auto" package="com.omnidreamgames.zcnws.x7sy" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-feature android:glEsVersion="0x00030002"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.omnidreamgames.zcnws.x7sy.tt.permission"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="true"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/back_rule" android:fullBackupContent="@xml/back_rule" android:hardwareAccelerated="true" android:icon="@drawable/u8_app_icon" android:label="@string/app_name" android:largeHeap="true" android:name="com.qdream.ts.QApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <meta-data android:name="android.app.lib_name" android:value="cocos2djs"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="true" android:name="org.cocos2dx.javascript.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="omniheroestw.onelink.me" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="org.cocos2dx.javascript.AppActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:name="org.cocos2dx.lib.CocosEditBoxActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.u8.sdk.base.web.U8CommonWebActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:exported="false" android:name="com.u8.sdk.utils.phoenix.PhoenixActivity" android:process=":phoenix" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="false" android:name="com.u8.sdk.utils.phoenix.PhoenixService" android:process=":phoenix"/>
+        <meta-data android:name="ulog.enable" android:value="true"/>
+        <meta-data android:name="ulog.level" android:value="DEBUG"/>
+        <meta-data android:name="ulog.local" android:value="true"/>
+        <meta-data android:name="android.notch_support" android:value="true"/>
+        <meta-data android:name="android.max_aspect" android:value="2.4"/>
+        <meta-data android:name="io.sentry.auto-init" android:value="false"/>
+        <meta-data android:name="io.sentry.anr.enable" android:value="false"/>
+        <receiver android:enabled="false" android:exported="false" android:name="cn.thinkingdata.analytics.utils.broadcast.TDReceiver"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="standard" android:name="com.u8.sdk.xiaoqi.XQSplashActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.com.billy.cc.core.remote" android:exported="true" android:name="com.billy.cc.core.component.remote.RemoteProvider"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|fontScale" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.u8.sdk.permission.U8PermissionActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.u8.sdk.permission.U8ProtocolActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.x7TranslatorProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.smwl.smsdk.plugin.translator.X7TranslatorProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.x7demo.smsdk.FirstContainerActivity" android:screenOrientation="portrait" android:theme="@style/X7ActivityTheme"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:exported="true" android:hardwareAccelerated="true" android:launchMode="standard" android:name="com.smwl.smsdk.x7_plugin_runtime.PluginDefaultProxyActivity" android:theme="@style/Theme.PluginContainerActivity"/>
+        <activity android:name="com.smwl.smsdk.activity.TestProcessPluginActivity" android:process=":core"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:hardwareAccelerated="true" android:name="com.x7demo.smsdk.EmptyActivity" android:screenOrientation="sensor" android:theme="@style/X7ActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.smwl.smsdk.x7_plugin_runtime.PluginPortraitProxyActivity" android:screenOrientation="portrait" android:theme="@style/UPPay"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.billy.cc.core.component.remote.RemoteConnectionActivity" android:taskAffinity="com.billy.cc.connection" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="action.com.billy.cc.connection"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.x7demo.smsdk.FirstActivity" android:screenOrientation="portrait" android:theme="@style/Base.Theme.AppCompat"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:hardwareAccelerated="true" android:name="com.x7demo.smsdk.OtherActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" android:process=":filedownloader" android:stopWithTask="false"/>
+        <service android:name="com.smwl.smsdk.app.manager.MainPluginServiceProcessService" android:process=":core"/>
+        <service android:enabled="true" android:exported="true" android:name="com.smwl.smsdk.app.manager.MainPluginProcessService"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+        <meta-data android:name="com.smwl.smsdk.accessLayerVersion" android:value="25"/>
+        <meta-data android:name="hume_convert.AppConvert.sdk.version" android:value="1.3.2.0"/>
+        <meta-data android:name="supportAuthorize" android:value="true"/>
+        <meta-data android:name="supportUploadErrorLog" android:value="true"/>
+        <meta-data android:name="isSpeedUpPackage" android:value="true"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.X7provider" android:exported="false" android:grantUriPermissions="true" android:name="com.smwl.smsdk.X7Provider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/x7_provider_paths"/>
+        </provider>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.x7SpeedProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.smwl.smsdk.plugin.X7SpeedUpProvider"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.contentprovider.authority.dynamic" android:exported="false" android:grantUriPermissions="true" android:name="com.tencent.shadow.core.runtime.container.PluginContainerContentProvider"/>
+        <provider android:authorities="com.omnidreamgames.zcnws.x7sy.ipc.provider.preference" android:exported="false" android:grantUriPermissions="true" android:name="com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize" android:exported="true" android:name="com.smwl.smsdk.activity.im.YunXinToX7ActX7SDK" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.omnidreamgames.zcnws.x7sy.yunXin_jumpTo_YunXinToX7Act"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.smwl.smsdk.activity.WakeUpActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.omnidreamgames.zcnws.x7sy.wakeup" android:scheme="smwl"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="com.smwl.smsdk.login.AuthorizedLoginActivity" android:screenOrientation="sensor" android:theme="@style/Theme_Transparent">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="com.omnidreamgames.zcnws.x7sy.action.authorizedLogin"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize" android:exported="true" android:name="com.smwl.smsdk.activity.UploadErrorLogActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.omnidreamgames.zcnws.x7sy.action.uploadErrorLog"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+</manifest>

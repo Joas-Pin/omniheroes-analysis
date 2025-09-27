@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/jz_dialog_progress_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/x7_155dp" android:layout_height="@dimen/x7_120dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_20dp" android:src="@drawable/jz_brightness_video" />
+        <TextView android:textSize="@dimen/x7_16dp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_12dp" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/brightness_progressbar" android:layout_width="fill_parent" android:layout_height="@dimen/x7_3dp" android:layout_marginTop="@dimen/x7_8dp" android:layout_marginBottom="@dimen/x7_20dp" android:max="100" android:progressDrawable="@drawable/jz_dialog_progress_drawable" android:layout_marginStart="@dimen/x7_24dp" android:layout_marginEnd="@dimen/x7_24dp" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </LinearLayout>
+</LinearLayout>

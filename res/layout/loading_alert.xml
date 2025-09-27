@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" style="@style/AppTheme" />
+    <TextView android:textSize="10.0dip" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New version has been detected,\nthe cache is being cleared, please wait~" android:layout_below="@id/progress" android:layout_centerHorizontal="true" />
+</RelativeLayout>

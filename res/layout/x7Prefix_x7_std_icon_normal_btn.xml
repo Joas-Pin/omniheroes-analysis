@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/x7_std_bg_primary_normal_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/x7_7dp" android:paddingEnd="@dimen/x7_7dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_iv" android:visibility="gone" android:layout_width="@dimen/x7_std_ic_size_normal" android:layout_height="@dimen/x7_std_ic_size_normal" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/x7_std_btn_drawable_margin" />
+    <TextView android:id="@id/text_tv" android:background="@null" style="@style/X7NormalBtnStyle" />
+</LinearLayout>

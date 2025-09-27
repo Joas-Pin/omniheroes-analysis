@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="@dimen/x7_320dp" android:layout_height="@dimen/x7_300dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="roleId:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_role_id" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="121" android:hint="商城角色信息 id" android:maxLength="3" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="roleCE:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_role_ce" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="2000" android:hint="商城角色信息 ce" android:inputType="none" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="roleStage:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_role_stage" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="3" android:hint="商城角色信息 stage" android:inputType="none" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="roleLevel:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_role_level" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="4" android:hint="商城角色信息 level" android:inputType="none" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="roleName:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_role_name" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="疯了的珠子" android:hint="商城角色信息 name" android:inputType="none" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_150dp" android:layout_height="fill_parent" android:text="roleRechargeAmount:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_role_recharge_amount" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_150dp" android:layout_height="fill_parent" android:text="43.32" android:hint="商城角色信息 recharge_amount" android:inputType="none" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="serverId:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_server_id" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="15678" android:hint="serverId" android:inputType="none" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/x7_300dp" android:layout_height="@dimen/x7_30dp">
+                <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_green_12cdb0" android:gravity="center" android:layout_width="@dimen/x7_100dp" android:layout_height="fill_parent" android:text="serverName:" />
+                <EditText android:textSize="@dimen/x7_12dp" android:textColor="@color/black" android:textColorHint="@color/x7base_black_9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_mall_server_name" android:background="#ffffffff" android:padding="@dimen/x7_5dp" android:layout_width="@dimen/x7_200dp" android:layout_height="fill_parent" android:text="国服蔡文姬" android:hint="server_name" android:inputType="none" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/white" android:gravity="center" android:id="@id/get_mall_data_tv" android:background="@color/x7base_green_12cdb0" android:layout_width="@dimen/x7_130dp" android:layout_height="@dimen/x7_40dp" android:layout_marginTop="@dimen/x7_10dp" android:text="@string/x7_mall_get_data" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

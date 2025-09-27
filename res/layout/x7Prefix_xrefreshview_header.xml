@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/xrefreshview_header_text" android:background="@color/base_white" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="47.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/left_images" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/right_text">
+        <ImageView android:id="@id/xrefreshview_header_tiger_icon_iv" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/x7_pull_refresh_icon" android:scaleType="fitXY" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/xrefreshview_header_progressbar" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    </RelativeLayout>
+    <ImageView android:id="@id/xrefreshview_header_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/right_text" />
+    <RelativeLayout android:id="@id/right_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:id="@id/xrefreshview_header_hint_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xlistview_header_hint_normal" />
+        <TextView android:textSize="12.0dip" android:id="@id/xrefreshview_header_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/xrefreshview_never_refresh" android:layout_below="@id/xrefreshview_header_hint_textview" />
+    </RelativeLayout>
+</RelativeLayout>

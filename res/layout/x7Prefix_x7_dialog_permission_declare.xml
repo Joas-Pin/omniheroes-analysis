@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smwl.smsdk.copyCode.MaxHeightLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/dialog_root_view" android:background="@drawable/x7_bg_solid_373c3e_corner_10" android:padding="@dimen/x7_20dp" android:layout_width="@dimen/x7_300dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.smwl.smsdk.copyCode.MediumBoldTextView android:textSize="@dimen/x7_16dp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/permission_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/x7_10dp" android:maxLines="2" android:includeFontPadding="false" app:text_thickness="1.3" />
+    <ScrollView android:orientation="vertical" android:id="@id/permission_content_sv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/x7_14dp" android:textColor="@color/x7base_white" android:id="@id/permission_privacy_explain" android:paddingBottom="@dimen/x7_1dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/x7_2dp" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.smwl.smsdk.permission.PermissionRecyclerView android:id="@id/permission_content_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_10dp">
+        <TextView android:textSize="@dimen/x7_14dp" android:textColor="#b2ffffff" android:gravity="center" android:id="@id/permission_exit_btn" android:background="@drawable/x7_bg_1affffff_corner_10" android:layout_width="@dimen/x7_123dp" android:layout_height="@dimen/x7_42dp" android:includeFontPadding="false" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/x7_14dp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/permission_declare_btn" android:background="@drawable/x7_bg_12cdb0_corner_10" android:layout_width="@dimen/x7_123dp" android:layout_height="@dimen/x7_42dp" android:includeFontPadding="false" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.smwl.smsdk.copyCode.MaxHeightLinearLayout>

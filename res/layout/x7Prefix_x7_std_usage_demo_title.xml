@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_std_color_white_f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_std_root_edge_margin" android:text="X7TitleBar" android:layout_marginStart="@dimen/x7_std_root_edge_margin" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_text="默认标题栏" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_isShowTitle="false" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_isShowBack="false" app:title_text="无返回键标题栏" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_centerLayout_constraint="between" app:title_text="标题栏between" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_rightLayout="@layout/x7Prefix_x7_std_usage_demo_custom_view" app:title_text="自定义右侧控件" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_isShowBack="false" app:title_leftLayout="@layout/x7Prefix_x7_std_usage_demo_custom_view" app:title_text="自定义左侧控件" />
+    <com.smwl.smsdk.x7std.widgets.X7TitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_centerLayout="@layout/x7Prefix_x7_std_usage_demo_custom_view" app:title_isShowTitle="false" app:title_text="自定义中间控件" />
+    <TextView android:textSize="@dimen/x7_15dp" android:textColor="@color/x7_std_color_white_f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_std_root_edge_margin" android:text="X7ActionTitleBar" android:layout_marginStart="@dimen/x7_std_root_edge_margin" />
+    <com.smwl.smsdk.x7std.widgets.X7ActionTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:actionName="more" app:actionText="更多" app:title_text="文字按钮" />
+    <com.smwl.smsdk.x7std.widgets.X7ActionTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:actionName="setting" app:actionText="设置" app:title_text="文字按钮带图标" />
+    <com.smwl.smsdk.x7std.widgets.X7ActionTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:actionName="more" app:title_text="图标按钮" />
+    <com.smwl.smsdk.x7std.widgets.X7ActionTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:leftActionName="more" app:leftActionText="更多" app:title_text="左侧按钮" />
+    <com.smwl.smsdk.x7std.widgets.X7ActionTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:actionName="setting" app:leftActionName="more" app:title_isShowBack="false" app:title_text="左右按钮" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/x7_std_load_normal_anim_ll" android:layout_width="@dimen/x7_100dp" android:layout_height="@dimen/x7_100dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/x7_std_load_more_anim_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x7_30dp" />
+</LinearLayout>

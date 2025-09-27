@@ -1,0 +1,19 @@
+.class public interface abstract Lorg/apache/commons/io/input/v;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract a()V
+.end method
+
+.method public abstract a(Ljava/lang/Exception;)V
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract a(Lorg/apache/commons/io/input/u;)V
+.end method
+
+.method public abstract b()V
+.end method

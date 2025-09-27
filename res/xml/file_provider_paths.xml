@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="external-file-path" path="." />
+    <external-path name="external-path" path="." />
+    <root-path name="root-path" path="" />
+    <files-path name="no_backup" path="../no_backup/" />
+</paths>

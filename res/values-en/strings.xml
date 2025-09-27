@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Omniheroes</string>
+    <string name="done">Done</string>
+    <string name="go">Go</string>
+    <string name="next">Next</string>
+    <string name="search">Search</string>
+    <string name="send">Send</string>
+</resources>

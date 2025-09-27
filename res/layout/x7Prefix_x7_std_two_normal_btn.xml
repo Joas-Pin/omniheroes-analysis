@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/x7_std_root_edge_margin" android:paddingEnd="@dimen/x7_std_root_edge_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/left" android:layout_width="@dimen/x7_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/x7Prefix_x7_std_icon_normal_btn" />
+    <include android:id="@id/right" android:layout_width="@dimen/x7_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/x7_std_btn_interval" layout="@layout/x7Prefix_x7_std_icon_normal_btn" />
+</LinearLayout>
